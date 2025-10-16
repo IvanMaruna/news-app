@@ -23,7 +23,7 @@ Use this guide to spin up both services locally and understand the moving parts 
 
 1. In a separate terminal, `cd news-frontend`
 2. Install dependencies: `npm install`
-3. Create `news-frontend/.env` using `news-frontend/.env.example` with `VITE_API_BASE_URL=http://localhost:3001`
+3. Create `news-frontend/.env` using `news-frontend/.env.example` with `VITE_API_BASE_URL=http://localhost:3001/api`
 4. Start the dev server: `npm run dev`
 
 Vite prints the local URL. Open it in a browser, submit a form, and the app will POST to the backend.
