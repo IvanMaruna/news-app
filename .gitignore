@@ -1,0 +1,26 @@
+# Backend build output
+news-backend/bin/
+news-backend/obj/
+
+# Frontend build output
+news-frontend/node_modules/
+news-frontend/dist/
+
+# Environment files
+.env
+.env.*
+!*.example
+
+# IDE / tooling
+.vscode/
+*.user
+*.suo
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
